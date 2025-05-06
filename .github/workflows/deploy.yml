@@ -44,5 +44,5 @@ jobs:
             cd /var/www/html/springbootAndVue/xhs
             docker build -t sb-xhs .
             docker stop spring-xhs || true
-            docker rm spring-e_xhs || true
-            docker run -d --name spring-e_xhs -p 9982:9982 --network blog sb-e_xhs
+            docker rm spring-xhs || true
+            docker run -d --name spring-xhs -p 9982:9982 --network blog sb-xhs

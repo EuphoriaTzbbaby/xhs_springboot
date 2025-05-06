@@ -9,7 +9,6 @@ public class NoteComments {
   private long id;
   private String noteId;
   private String commentId;
-  private String parentId;
   private String userId;
   private String nickname;
   private String gender;
